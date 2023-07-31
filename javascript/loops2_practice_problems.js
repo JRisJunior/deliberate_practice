@@ -26,13 +26,20 @@
 
 // # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
 
-let i = 0;
-while (i <= 100) {
-  console.log(i);
-  i = i + 5;
-}
+// let i = 0;
+// while (i <= 100) {
+//   console.log(i);
+//   i = i + 5;
+// }
 
 // # 5. Write a while loop that prints the number 9000 ten times.
+
+let i = 0;
+var number = 9000;
+while (i < 10) {
+  console.log(number);
+  i++;
+}
 
 // # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
 
